@@ -1,0 +1,22 @@
+{
+  "name": "service-discovery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickwu78/service-discovery.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@nickwu78"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.610.0"
+  }
+}
